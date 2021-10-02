@@ -216,7 +216,7 @@ nav
 
 .about-me__info--title
 {
-    margin-bottom: 16px;
+    margin-bottom: 15px;
     animation: fade-up 650ms 400ms backwards;
 }
 
@@ -528,7 +528,7 @@ footer
     }
     h1
     {
-        font-size: 28px;
+        font-size: 20px;
     }
     .about-me__info--paragraph
     {
@@ -544,21 +544,24 @@ footer
     }
     .project_description
     {
-        left: 30px;
-        padding-right: 30px;
+        padding: 0 30px;
+        left:  30px;
     }
 }
 
 /* SMALL PHONES */
 @media (max-width: 480px)
 {
-    .nav__link:not(:last-child)
+    .nav_link:not(:last-child)
     {
         display: none;
     }
+    .personal__logo{
+        font-size: 20px;
+    }
     .project_description
     {
-        padding: 0;
+        padding: none;
         left: 0;
         width: 100%;
     }
