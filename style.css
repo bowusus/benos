@@ -94,7 +94,7 @@ li
 
 .text--purple
 {
-    color: #6030b1;
+    color: #197dff;
 }
 .section:nth-child(even)
 {
@@ -138,7 +138,7 @@ nav
 }
 .nav__link--anchor-primary
 {
-    background-color: #6030b1;
+    background-color: #197dff;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
@@ -146,12 +146,12 @@ nav
 }
 .nav__link--anchor-primary:hover
 {
-    background-color: #5d3eff;
+    background-color: #197dff;
 }
 .personal__logo
 {
     font-size: 24px;
-    color: #6030b1;
+    color: #197dff;
     margin: 0 12px;
     font-weight: bold;
 
