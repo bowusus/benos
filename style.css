@@ -455,6 +455,43 @@ nav
     color: #f8f8f8
 }
 
+/* View All Projects Button CSS */
+.view-all-projects {
+    margin-top: 40px;
+    text-align: center;
+}
+.view-all-projects a {
+    display: inline-block;
+    padding: 14px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #3D7AFE;
+    border-radius: 30px;
+    transition: background-color 300ms ease-in-out, transform 200ms;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+}
+.view-all-projects a:hover {
+    background-color: #2f5bcc;
+    transform: translateY(-3px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .view-all-projects a {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .view-all-projects a {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
 /* FOOTER */
 
 footer
